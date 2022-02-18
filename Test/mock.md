@@ -1,411 +1,243 @@
-Question 1 of 40 <br>
-What is your responsibility in terms of cloud security: 
-    - B. Operating System, Network & Firewall Configuration 
+1. Question 1 of 40 <br>
+    1. What is your responsibility in terms of cloud security: 
+        1. Operating System, Network & Firewall Configuration 
 
 
-Question 2 of 40 <br>
-Match the options below: 
-Cluster of availability zones -> Regions
-Contains one or more data centres -> Availability zones 
-The backbone of cloud infrastructure -> Data Centres 
-Allow content to be cached for lower latency -> Points of Presence 
+2. Question 2 of 40 <br>
+    1. Match the options below: 
+        1. Cluster of availability zones -> Regions
+        2. Contains one or more data centres -> Availability zones 
+        3. The backbone of cloud infrastructure -> Data Centres 
+        4. Allow content to be cached for lower latency -> Points of Presence 
 
 
-Question 3 of 40 <br>
-Ansible configuration files are in YAML 
-  True 
+3. Question 3 of 40 <br>
+    1. Ansible configuration files are in YAML 
+        1. True 
 
 
-Question 4 of 40 <br>
-Match the options below: 
-Blocks -> Containers for other content and usually represent the configuration of some kind of object, like a resource. 
-Assigns a value to a name. -> Arguments 
-Represents a value. -> Expressions 
+4. Question 4 of 40 <br>
+    1. Match the options below: 
+        1. Blocks -> Containers for other content and usually represent the configuration of some kind of object, like a resource. 
+        2. Assigns a value to a name. -> Arguments 
+        3. Represents a value. -> Expressions 
 
 
-Question 5 of 40 <br>
-What is the equivalent to CloudFormation? 
-  Ansible and Terraform 
+5. Question 5 of 40 <br>
+    1. What is the equivalent to CloudFormation? 
+        1. Ansible and Terraform 
 
-You did not select all available correct options. 
-Points: 1.4 / 2.5 
-Question 6 of 40 Infrastructure as Code 
-You cannot review changes with execution plans in Terraform. 
-Correct answer: B. Selected answer: B. 
-A. True 
-✓ B. False 
-Points: 2.5 / 2.5 
-Question 7 of 40 
-Infrastructure as Code 
-What keeps track of the infrastructure in Terraform? 
-Correct answer: B. Selected answer: A. 
-X A. Configuration file 
-→ B. State file 
-You did not select all available correct options. 
-Points: 0 / 2.5 
-Question 8 of 40 
-Infrastructure as Code 
-Match the Terraform commands below: 
-✓ Correct answer 
-Prepare your working directory for other commands 
-init 
-Correct answer 
-Check whether the configuration is valid 
-validate 
-Correct answer 
-plan 
-Show changes required by the current configuration 
-✓ Correct answer 
-Create or update infrastructure 
-apply 
-V Correct answer 
-Destroy previously-created infrastructure 
-destroy 
-Points: 2.5 / 2.5 
-Question 9 of 40 
-AWS 
-Match the options below: 
-V Correct answer 
-Relational Database 
-Amazon Aurora 
-✓ Correct answer 
-Key-Value Database 
-Amazon DynamoDB 
-✓ Correct answer 
-In-memory Database 
-Amazon ElastiCache for Redis 
-✓ Correct answer 
-Document Database 
-Amazon DocumentDB 
-X Incorrect answer 
-- Missed correct answer 
-Wide Column Database 
-Amazon Neptune 
-Amazon Keyspaces 
-X Incorrect answer 
-Missed correct answer 
-Graph Database 
-Amazon Keyspaces 
-Amazon Neptune 
-✓ Correct answer 
-Time Series Database 
-Amazon Timestream 
-✓ Correct answer 
-Ledger Database 
-Amazon Quantum Ledger Database 
-Points: 2.1/2.5 
-Question 10 of 40 
-AWS 
-How durable is AWS S3 Storage? 
-Correct answer: D. Selected answer: D. 
-A. 99.98% 
-B. 99.998% 
-C. 99.9998% 
-D. 99.999999999% 
-Points: 2.5/2.5 
-Question 11 of 40 
-AWS 
-Which of the following best describes Lambda: 
-Correct answer: A. B. Selected answer: B. 
-A. Serverless 
-B. Function as a Service 
-You did not select all available correct options. 
-Points: 1.4 / 2.5 
-Question 12 of 40 
-AWS 
-laas benefits include: 
-Correct answer: C. Selected answer: A. C. 
-X A. Not having to worry about the underlying hardware 
-B. Giving up full control of the infrastructure 
-✓ C. Controlling the cost through usage and interaction alerts 
-D. All of the above 
-You did not select all available correct options. 
-Points: 1.4 / 2.5 
-Question 13 of 40 
-Infrastructure as Code 
-Which of the below is the way to write comments in Terraform: 
-Correct answer: A. B. C. Selected answer: A. 
-A. # 
-> B. // 
-→ C. /* and *1 
-D. % 
-E. $ 
-You did not select all available correct options. 
-Points: 1/2.5 
-Question 14 of 40 Infrastructure as Code 
-Which is correct: 
-Correct answer: A. Selected answer: A. 
-A. module "first_module" { 
-source = "/module-1" resource_name = some_resource.example.name 
-B. module "first module" ( 
-source = "./module-1" resource_name = some_resource.example.name 
-C. module first_module { 
-source = /module-1 resource_name = some_resource.example.name 
-D. module { 
-source = "/module-1" resource_name = some_resource.example.name 
-Points: 2.5 / 2.5 
-Question 15 of 40 
-Infrastructure as Code 
-Where are the hosts listed? 
-Correct answer: B. Selected answer: A. 
-X A. playbook.yaml 
-B. inventory.yaml 
-You did not select all available correct options. 
-Points: 0/2.5 
-Question 16 of 40 
-Infrastructure as Code 
-Which is correct: 
-Correct answer: A. Selected answer: A. 
-✓ A. resource "aws_vpc" "main" { 
-cidr_block = var.base_cidr_block 
-B. resource "aws_vpc" { 
-cidr_block = var.base_cidr_block 
-C. resource "aws_vpc" "main" { 
-cidr_block = base_cidr_block 
-D. resource "aws_vpc" "main" ( 
-cidr_block = var.base_cidr_block 
-E. resource "aws_vpc" "main" { 
-cidr_block == var.base_cidr_block 
-Points: 2.5 / 2.5 
-Question 17 of 40 
-AWS 
-Which of the following are examples of NoSQL databases: 
-Correct answer: E. Selected answer: A. D. 
-X A. Key-value 
-B. Document 
-C. Graph 
-X D. In-memory 
-► E. All of the above 
-You did not select all available correct options. 
-Points: 0/2.5 
-Question 18 of 40 
-AWS 
-What is the cloud platforms responsibility: 
-Correct answer: C. Selected answer: A. B. C. 
-X A. Server-side encryption (file System and/or data) 
-X B. Networking traffic protection 
-✓ C. Storage 
-D. Customer Data 
-E. All of the above 
-You did not select all available correct options. 
-Points: 1/2.5 
-Question 19 of 40 
-AWS 
-Which statement best explains Paas: 
-Correct answer: B. C. Selected answer: A. C. 
-X A. It allows you to fully customise your infrastructure. 
-B. It removes the control of the underlying infrastructure. 
-✓ C. It allows you to build your own applications. 
-D. All of the above 
-You did not select all available correct options. 
-Points: 1.4/2.5 
-Question 20 of 40 
-AWS 
-S3 Bucket naming convention: 
-Correct answer: A. B. E. Selected answer: A. B. E. 
-A. No uppercase 
-VB. No underscore 
-C. Can be an IP 
-D. No numbers allowed 
-E. Must start with lowercase letter or number 
-F. Must start with uppercase letter, using Camel casing convention 
-Points: 2.5 / 2.5 
-Question 21 of 40 
-AWS 
-Gmail is a Saas 
-Correct answer: A. Selected answer: A. 
-VA. True 
-B. False 
-Points: 2.5/2.5 
-Question 22 of 40 
-Infrastructure as Code 
-count can be used with modules and with every resource type. 
-Correct answer: A. Selected answer: A. 
-✓ A. True 
-B. False 
-Points: 2.5 / 2.5 
-Question 23 of 40 
-AWS 
-Match the options below: 
-X Incorrect answer 
-► Missed correct answer 
-Saas 
-Here's the tools to make stuff 
-We'll take care of it all 
-X Incorrect answer 
-► Missed correct answer 
-Paas 
-We'll take care of it all 
-Here's the tools to make stuff 
-X Incorrect answer 
-→ Missed correct answer 
-laaş 
-Self-Hosted 
-It's all your responsibility 
-Points: 0/2.5 
-Question 24 of 40 
-Infrastructure as Code 
-CloudFormation can perform as Provider and Provisioner 
-Correct answer: A. Selected answer: A. 
-✓ 
-A. True 
-B. False 
-Points: 2.5 / 2.5 
-Question 25 of 40 
-Infrastructure as Code 
-count can accepts numbers that aren't whole numbers e.g. 2.5 
-Correct answer: B. Selected answer: B. 
-A. True 
-B. False 
-Points: 2.5 / 2.5 
-Question 26 of 40 
-Infrastructure as Code 
-Terraform does not allow you to define resources and infrastructure 
-Correct answer: B. Selected answer: B. 
-A. True 
-✓ B. False 
-Points: 2.5 / 2.5 
-Question 27 of 40 
-Infrastructure as Code 
-What is Microsoft's equivalent to AWS CloudFormation? 
-Answer given: 
-✓ Azure Resource Manager 
-Accepted answers: 
-Azure Resource Manager ARM Resource Manager Azure Manager Azure Resource 
-Points: 2.5 / 2.5 
-Question 28 of 40 Infrastructure as Code 
-Terraform is: 
-Correct answer: B. Selected answer: B. 
-A. Procedural 
-✓ B. Declarative 
-Points: 2.5 / 2.5 
-Question 29 of 40 Infrastructure as Code 
-The source argument is mandatory for all modules 
-Correct answer: A. Selected answer: A. 
-A. True 
-B. False 
-Points: 2.5/2.5 
-Question 30 of 40 
-AWS 
-Microsoft 365 is a Paas 
-Correct answer: B. Selected answer: B. 
-A. True 
-✓ 
-B. False 
-Points: 2.5/2.5 
-Question 31 of 40 
-AWS 
-Which of the following are global services: 
-Correct answer: B. Selected answer: A. C. D. 
-X A. Amazon EC2 
-→ B. Route 53 
-X C. Rekognition 
-X D. Lambda 
-You did not select all available correct options. 
-Points: 0/2,5 
-Question 32 of 40 
-AWS 
-Match the protocol to the port number below: 
-X Incorrect answer 
-► Missed correct answer 
-SFTP 
-SSH 
-X Incorrect answer 
-- Missed correct answer 
-SFTP 
-FTP 
-Missed correct answer 
-X Incorrect answer HTTP 
-SFTP 
-✓ Correct answer 
-HTTP 
-X Incorrect answer 
-Missed correct answer 
-443 
-FTP 
-HTTPS 
-X Incorrect answer 
-Missed correct answer 
-3306 
-RDP 
-MySQL 
-X Incorrect answer 
-- Missed correct answer 
-3389 
-SCP 
-RDP 
-Points: 1.1/2.5 
-Question 33 of 40 
-AWS 
-Match the options below: 
-X Incorrect answer 
-→ Missed correct answer 
-Scaling out 
-Adding more RAM and CPUs 
-Adding more servers 
-X Incorrect answer 
-► Missed correct answer 
-Scaling up 
-Adding more servers 
-Adding more RAM and CPUs 
-Points: 0/2.5 
-Question 34 of 40 
-Infrastructure as Code 
-Match the options below: 
-✓ Correct answer 
-contains the resources 
-main.tf 
-✓ Correct answer 
-contains the variables used in the module 
-variables.tf 
-✓ Correct answer 
-•contains the outputs produced by the module 
-output.tf 
-Points: 2.5 / 2.5 
-Question 35 of 40 
-AWS 
-Amazon RDS (Relational Database Service) is a Saas 
-Correct answer: B. Selected answer: A. 
-X A. True 
-B. False 
-Points: 0/2.5 
-Question 36 of 40 
-AWS 
-Security groups only contain rules 
-Correct answer: A. Selected answer: A. 
-✓ 
-A. True 
-B. False 
-Points: 2.5/2.5 
-Question 37 of 40 
-Infrastructure as Code 
-Unlike most of the CM tools Ansible isn't "push" based 
-Correct answer: B. Selected answer: B. 
-A. True 
-B. False 
-Points: 2.5 / 2.5 
-Question 38 of 40 
-AWS 
-Which of the following services are region scoped: 
-Correct answer: B. Selected answer: A. B. C. D. 
-X A. IAM 
-✓ B. Elastic Beanstalk 
-X C. CloudFront (Content Delivery Network) 
-X D. WAF (Web Application Firewall) 
-You did not select all available correct options. 
-Points: 0.7 / 2.5 
-Question 39 of 40 
-Infrastructure as Code 
-Ansible isn't agentless 
-Correct answer: B. Selected answer: A. 
-X A. True 
-B. False 
-Points: 0/2.5 
-Question 40 of 40 
-Infrastructure as Code 
-Terraform's configuration files are in .yaml file format. 
-Correct answer: B. Selected answer: A. 
-X 
-A. True 
-B. False 
-Points: 0 / 2.5 
+
+6. Question 6 of 40 <br>
+    1. You cannot review changes with execution plans in Terraform. 
+        1. False 
+
+
+7. Question 7 of 40 <br>
+    1. What keeps track of the infrastructure in Terraform? 
+        1. State file 
+
+
+8. Question 8 of 40 <br>
+    1. Match the Terraform commands below: 
+    2. Prepare your working directory for other commands -> init 
+    3. Check whether the configuration is valid -> validate 
+    4. Show changes required by the current configuration -> plan
+    5. Create or update infrastructure -> apply 
+    6. Destroy previously-created infrastructure -> destroy 
+
+
+9. Question 9 of 40 <br>
+    1. Relational Database -> Amazon Aurora 
+    2. Key-Value Database -> Amazon DynamoDB 
+    3. In-memory Database -> Amazon ElastiCache for Redis 
+    4. Document Database -> Amazon DocumentDB 
+    5. Wide Column Database -> Amazon Keyspaces 
+    6. Graph Database -> Amazon Neptune 
+    7. Time Series Database -> Amazon Timestream 
+    8. Ledger Database -> Amazon Quantum Ledger Database 
+
+
+10. Question 10 of 40 <br>
+    1. How durable is AWS S3 Storage? 
+        1. 99.999999999% (11 nines)
+
+
+11. Question 11 of 40 <br>
+    1. Which of the following best describes Lambda: 
+        1. Serverless and a Function as a Service 
+
+
+12. Question 12 of 40 <br>
+    1. laas benefits include: 
+        1. Not having to worry about the underlying hardware 
+        2. Controlling the cost through usage and interaction alerts 
+
+
+13. Question 13 of 40 <br>
+    1. Which of the below is the way to write comments in Terraform: 
+        1. # 
+        2. // 
+        3. /* and *1 
+
+
+14. Question 14 of 40 <br>
+    1. Which is correct: 
+    2. Correct answer: A. Selected answer: A.
+        1. A. module "first_module" { 
+		source = "/module-1" resource_name = some_resource.example.name 
+        1. B. module "first module" ( 
+		source = "./module-1" resource_name = some_resource.example.name 
+        1. C. module first_module { 
+	source = /module-1 resource_name = some_resource.example.name 
+        1. D. module { 
+		source = "/module-1" resource_name = some_resource.example.name 
+
+
+15. Question 15 of 40 <br>
+    1. Where are the hosts listed? 
+        1. inventory.yaml 
+
+
+16. Question 16 of 40 <br>
+    1. Which is correct: 
+    2. Correct answer: A. Selected answer: A. 
+        1.  A. resource "aws_vpc" "main" { 
+        2. 		cidr_block = var.ba	se_cidr_block 
+        3. B. resource "aws_vpc" { 
+        4. 		cidr_block = var.base_cidr_block 
+        5. C. resource "aws_vpc" "main" { 
+        6. 		cidr_block = base_cidr_block 
+        7. D. resource "aws_vpc" "main" ( 
+        8. 		cidr_block = var.base_cidr_block 
+        9. E. resource "aws_vpc" "main" { 
+        10. 		cidr_block == var.base_cidr_block 
+
+
+
+17. Question 17 of 40 <br>
+    1. Which of the following are examples of NoSQL databases: 
+        1. A. Key-value 
+        2. B. Document 
+        3. C. Graph 
+        4. D. In-memory 
+        5. All of the above (CORRECT)
+
+
+
+18. Question 18 of 40 <br>
+    1. What is the cloud platforms responsibility: 
+        1. Storage 
+
+
+
+19. Question 19 of 40 <br>
+    1. Which statement best explains PaaS: 
+        1. It removes the control of the underlying infrastructure. 
+        2. It allows you to build your own applications. 
+
+
+20. Question 20 of 40 <br>
+    1. S3 Bucket naming convention: 
+        1. No uppercase 
+        2. No underscore 
+        3. Must start with lowercase letter or number 
+
+
+21. Question 21 of 40 <br>
+    1. Gmail is a Saas 
+        1. True 
+
+
+22. Question 22 of 40 <br>
+    1. ‘count’ can be used with modules and with every resource type. 
+        1. True 
+
+
+23. Question 23 of 40 <br>
+    1. Match the options below: 
+        1. Saas -> We'll take care of it all 
+        2. Paas -> Here's the tools to make stuff 
+        3. laaş -> It's all your responsibility 
+
+
+24. Question 24 of 40 <br>
+    1. CloudFormation can perform as Provider and Provisioner 
+        1. True 
+
+ 
+25. Question 25 of 40 <br>
+    1. ‘count’ can accepts numbers that aren't whole numbers e.g. 2.5 
+        1. False 
+
+
+26. Question 26 of 40 <br>
+    1. Terraform does not allow you to define resources and infrastructure 
+        1. False 
+	
+
+
+27. Question 27 of 40 <br>
+    1. What is Microsoft's equivalent to AWS CloudFormation? 
+        1. Azure Resource Manager 
+	
+
+28. Question 28 of 40<br>
+    1. Terraform is: 
+        1. Declarative, not procedural 
+	
+
+29. Question 29 of 40<br>
+    1. The source argument is mandatory for all modules 
+        1. True 
+	
+30. Question 30 of 40 <br>
+    1. Microsoft 365 is a Paas 
+        1. False 
+	
+
+31. Question 31 of 40 <br> 
+    1. Which of the following are global services: 
+        1. Route 53 
+
+
+32. Question 32 of 40 <br> 
+    1. Match the protocol to the port number below: 
+        1. 22 -> SSH
+        2. 21 -> FTP
+        3. 22 -> SFTP
+        4. 80 -> HTTP
+        5. 443 -> HTTPS
+        6. 3306 -> MySQL
+        7. 3389 -> RDP
+
+
+
+33. Question 33 of 40 <br> 
+    1. Match the options below: 
+        1. Scaling out -> Adding more servers 
+        2. Scaling up -> Adding more RAM and CPUs 
+
+
+34. Question 34 of 40 <br> 
+    1. Match the options below: 
+        1. contains the resources  -> main.tf 
+        2. contains the variables used in the module -> variables.tf 
+        3. contains the outputs produced by the module -> output.tf 
+
+
+35. Question 35 of 40 <br> 
+    1. Amazon RDS (Relational Database Service) is a Saas 
+        1. False 
+
+
+36. Question 36 of 40 <br> 
+    1. Security groups only contain rules 
+        1. True 
+
+
+
+37. Question 37 of 40<br>  
+    1. Unlike most of the CM tools Ansible isn't "push" based 
+        1. False 
+	
