@@ -33,7 +33,7 @@
 	a. If ‘yes’ why? 
 
 	b. If ‘no’ why? <br>
-		No, because they have different syntax and features.
+    		- No, because they have different syntax and features.
 
 
 7. Describe the relationship between a Python script, Python interpreter, the Operating System and System Software. 
@@ -63,7 +63,7 @@
 
 
 13. What is meant by Python built-in functions? 
-	Functions that python have programmed for anyone to use, such as: “print()”, “endswith()”, etc.
+	- Functions that python have programmed for anyone to use, such as: “print()”, “endswith()”, etc.
 
 
 14. What is version control and what is it used for? 
