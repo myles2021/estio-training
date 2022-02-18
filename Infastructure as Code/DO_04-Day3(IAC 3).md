@@ -1,5 +1,3 @@
-
-
 1. Why is Git (as source repository) critical to a DevOps operation?
     - It allows many engineers to work on a project in sections so that it’s a faster and more efficient way of working as well as a safer way of storing code, as it’s via the cloud.
 
