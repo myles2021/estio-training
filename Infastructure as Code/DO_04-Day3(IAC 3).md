@@ -78,12 +78,12 @@ f) Merge
     - A Readme file is a file that describes the purpose of the repository and gives hints on what the code does, how to compile/use it, etc. The . md extension stands for Markdown, which is a type of file that is both readable in plain text, but can also be easily converted to HTML to display special elements.
 
 
-17. Consider the following scenario:
-a) You’ve created a working branch called my_branch and currently working on that branch.
-b) You want merge my_branch with the master branch.
-c) What are the steps in achieving your goal?
-        1. git add .
-        2. git commit -m “changes I’ve done to the **** feature, adding *** and fixing ****”
-        3. git push origin my_branch
-        4. Create a pull request via GitHub dashboard and assess your changes before submitting it
-        5. Ask someone to review the changes before merging it
+17. Consider the following scenario:<br>
+    a) You’ve created a working branch called my_branch and currently working on that branch.<br>
+    b) You want merge my_branch with the master branch.<br>
+    c) What are the steps in achieving your goal?<br>
+            1. git add .<br>
+            2. git commit -m “changes I’ve done to the **** feature, adding *** and fixing ****”<br>
+            3. git push origin my_branch<br>
+            4. Create a pull request via GitHub dashboard and assess your changes before submitting it<br>
+            5. Ask someone to review the changes before merging it<br>
