@@ -236,8 +236,22 @@
         1. True 
 
 
-
 37. Question 37 of 40<br>  
     1. Unlike most of the CM tools Ansible isn't "push" based 
+        1. False 
+	
+	
+38. Question 38 of 40 
+    1. Which of the following services are region scoped: 
+        1. Elastic Beanstalk 
+
+
+39. Question 39 of 40 
+    1. Ansible isn't agentless 
+        1. False 
+
+
+40. Question 40 of 40 
+    1. Terraform's configuration files are in .yaml file format. 
         1. False 
 	
